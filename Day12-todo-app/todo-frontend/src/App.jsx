@@ -8,7 +8,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // Fetch todos
+  
   useEffect(() => {
     setLoading(true);
     fetch(`${API_BASE}/api/todos`)
