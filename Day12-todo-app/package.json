@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd todo-backend && npm start",
+    "client": "cd todo-frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "cd": "^0.3.3",
+    "todo-backend": "^0.0.1-security"
+  }
+}
