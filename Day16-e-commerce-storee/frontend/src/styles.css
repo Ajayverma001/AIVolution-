@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background:#f7f7f7; }
+.container { max-width: 900px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,0.06);}
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;}
+.products { display:grid; grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); gap:12px;}
+.card { border:1px solid #eee; padding:12px; border-radius:6px; background: #fff;}
+button { cursor:pointer; }
+.cart { margin-top: 18px; }
+.cart-item { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #eee;}
+.small { font-size:0.9rem; color:#555; }
